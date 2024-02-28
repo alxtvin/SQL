@@ -1,4 +1,4 @@
-Для отображения времени вида timestamp в human date, можнно транслировать его в created_at, пример запроса: 
+Для перевода времени вида timestamp в human date, можнно транслировать его в created_at, пример запроса: 
 
 SELECT issuer, event, to_timestamp(created_at) 
 FROM stats_raw_events
